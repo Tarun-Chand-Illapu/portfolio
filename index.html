@@ -1,0 +1,2043 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarun Chand - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-CrF2pO7e7Rzzv2AVhZfGR+Op5wvjbLHaBEzL3aA7clzB5X6j4axYvX9qgoF6iy/o77PVvSRvX5rv9h3KDMxVDw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Tarun Chand Illapu">Tarun Chand Illapu</h1>
+
+          <p class="title">Devops Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="ti55@njit.edu" class="contact-link">ti55@njit.edu</a>
+
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+             <a href="tel:+15512539115" class="contact-link">+1 (551) 253-9115</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1999-07-25">July 25, 1999</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Harrison, New Jersey, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+<ul class="social-list">
+  
+  <li class="social-item">
+    <a href="https://www.linkedin.com/in/tarunchandillapu/" class="social-link">
+      <ion-icon name="logo-linkedin"></ion-icon>
+    </a>
+  </li>
+
+  <li class="social-item">
+    <a href="https://github.com/Tarun-Chand-Illapu" class="social-link">
+      <ion-icon name="logo-github"></ion-icon>
+    </a>
+  </li>
+
+  
+
+  <li class="social-item">
+    <a href="https://www.instagram.com/tarunchand_/" class="social-link">
+      <ion-icon name="logo-instagram"></ion-icon>
+    </a>
+  </li>
+
+
+</ul>
+
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+         
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">ABOUT ME</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hey there! I'm Tarun, a DevOps geek with a knack for making tech magic happen. Certified AWS Cloud Practitioner here, waving the flag for cutting-edge CI/CD pipelines and all things automation. I've been around the cloud block, playing with Terraform, CloudFormation, GitLab CI, Jenkins – you name it.
+          </p>
+
+          <p>
+            In my last gig at HashTek Solutions, I sprinkled some IaC fairy dust and shaved off a cool 25% from infrastructure provisioning time. No biggie, just optimized CI/CD pipelines and danced with Docker and Kubernetes, scoring a 30% reduction in deployment time and a 20% increase in deployment frequency. Kept the cloud lights on, hitting that 99.99% uptime sweet spot.
+          </p>
+<p>
+            Now, I'm on the lookout for my next adventure in DevOps Cloud Engineering. Let's chat about driving innovation, crushing challenges, and maybe even swapping tech war stories over coffee (or your beverage of choice). Cheers! 🚀
+          </p>
+        </section>
+   <div class="separator"></div>
+<section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+     
+
+
+            <h3 class="h3">EDUCATION</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">New Jersey Institute of Technology</h4>
+		              <span>MS in Computer Science </span>
+
+              <span>Aug 2022- May 2024 </span>
+
+              <p class="timeline-text">
+                Pursuing an MS in Computer Science at NJIT, specializing in Internet & Higher Layer Protocols, Operating Systems, and Machine Learning. Maintaining a GPA of 3.55, I am dedicated to advancing my knowledge in these key areas, poised to contribute to cutting-edge developments in the field.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Vignan's Institute of Information technology</h4>
+		<span>Bachelors, Computer Science</span>
+
+              <span>Aug 2018 - May 2021</span>
+
+              <p class="timeline-text">
+                Completed a B.Tech in Computer Science at Vignan’s Institute, attaining a GPA of 3.25. Acquired a diverse skill set encompassing Data Structures, Cloud Computing, and Artificial Intelligence, laying a strong foundation for my professional journey in the realm of computer science.
+              </p>
+
+            </li>
+
+            
+
+          </ol>
+
+        </section>
+   <div class="separator"></div>
+<section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">EXPERIIENCE</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Devops Engineer</h4>
+	      <span>HashTek Solution</span>
+
+              <span>Aug 2021 - July 2022</span>
+
+              <p class="timeline-text">
+                    • Created and implemented groundbreaking Infrastructure as Code (IaC) methodologies using Terraform and CloudFormation, resulting in a 25% decrease in infrastructure provisioning time.
+                </p>
+                <p class="timeline-text">
+                    • Engineered and optimized CI/CD pipelines with GitLab CI and Jenkins, achieving a 30% reduction in deployment time and a 20% increase in deployment frequency.
+                </p>
+                <p class="timeline-text">
+                    • Implemented Infrastructure as Code (IaC) methodologies with Terraform and CloudFormation, leading to a 25% decrease in infrastructure provisioning time.
+                </p>
+                <p class="timeline-text">
+                    • Spearheaded containerization initiatives using Docker and Kubernetes, achieving a 40% improvement in scalability and a monthly server cost reduction by $15,000.
+                </p>
+                <p class="timeline-text">
+                    • Executed regular performance tuning and optimization of cloud resources, ensuring 99.99% uptime and optimal resource utilization.
+                </p>
+                <p class="timeline-text">
+                    • Imparted technical expertise and mentorship to junior team members, fostering a culture of continuous learning and improvement.
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cloud Support Associate-1</h4>
+	           <span>HashTek Solutions</span>
+
+              <span>Feb 2021 - July 2021</span>
+
+              <p class="timeline-text">
+                    • Collaborated with development and operations teams to establish best practices for Software Development Lifecycle (SDLC) automation, resulting in a 50% faster time-to-market.
+                </p>
+                <p class="timeline-text">
+                    • Assisted a 10-member software development team in debugging approximately three software programs weekly.
+                </p>
+                <p class="timeline-text">
+                    • Published client requirements and reported to the senior developer for successful implementation.
+                </p>
+                <p class="timeline-text">
+                    • Positioned security software on over 10 client systems to ensure a secure connection.
+                </p>
+                <p class="timeline-text">
+                    • Provided technical support and troubleshooting for cloud-related issues, maintaining a 95% customer satisfaction rating.
+                </p>
+                <p class="timeline-text">
+                    • Collaborated with cross-functional teams to resolve complex AWS service issues, reducing downtime by 20% and enhancing service reliability.
+                </p>
+                <p class="timeline-text">
+                    • Utilized AWS CloudWatch and other monitoring tools to proactively identify and resolve performance bottlenecks, ensuring optimal performance of cloud-based applications.
+                </p>
+                <p class="timeline-text">
+                    • Assisted in the development and implementation of disaster recovery strategies, ensuring 99.99% data availability in the event of system failures.
+                </p>
+                <p class="timeline-text">
+                    • Acted as a liaison between customers and engineering teams, effectively communicating technical solutions and ensuring customer success.
+                </p>
+                <p class="timeline-text">
+                    • Demonstrated good hands-on experience in EC2, VPC, S3, IAM, RDS, CloudFormation (YAML), CloudWatch, ELB, CloudTrail, LAMBDA Services, AWS EKS & AWS ECS.
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cloud Support Associate Intern</h4>
+
+              <span>HashTek Solutions</span>
+              <span>Noc 2020 - Feb 2021</span>
+
+              <p class="timeline-text">
+                    • Gained hands-on experience in cloud technologies, assisting in resolving complex customer problems and supporting cloud infrastructure.
+                </p>
+                <p class="timeline-text">
+                    • Assisted in resolving over 100 complex customer problems, contributing to a 30% increase in the customer issue resolution rate.
+                </p>
+                <p class="timeline-text">
+                    • Participated in the implementation of cloud infrastructure solutions, supporting the deployment of 10+ cloud-based projects.
+                </p>
+                <p class="timeline-text">
+                    • Developed and maintained technical documentation and knowledge base articles, empowering customers to troubleshoot common issues independently.
+                </p>
+                <p class="timeline-text">
+                    • Collaborated with senior engineers to design and implement security best practices, ensuring compliance with industry standards and regulations.
+                </p>
+                <p class="timeline-text">
+                    • Actively participated in team meetings and training sessions, acquiring new skills and knowledge in cloud technologies.
+                </p>
+
+            </li>
+<li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cyber Security Intern</h4>
+
+              <span>TocMoc Solutions</span>
+              <span>April 2019 - Sept 2019</span>
+
+              <p class="timeline-text">
+                    •	Discovered potential vulnerabilities and threats in web servers and suggested upgrades.
+                </p>
+                <p class="timeline-text">
+                    •	Worked on projects relating to malware detecting and protection, attacks on Content Delivery Networks, and SSL cross-site scripting
+                </p>
+                <p class="timeline-text">
+                    • Participated in the implementation of cloud infrastructure solutions, supporting the deployment of 10+ cloud-based projects.
+                </p>
+                <p class="timeline-text">
+                    • Developed and maintained technical documentation and knowledge base articles, empowering customers to troubleshoot common issues independently.
+                </p>
+                <p class="timeline-text">
+                    • Collaborated with senior engineers to design and implement security best practices, ensuring compliance with industry standards and regulations.
+                </p>
+                <p class="timeline-text">
+                    • Actively participated in team meetings and training sessions, acquiring new skills and knowledge in cloud technologies.
+                </p>
+
+          </ol>
+   <div class="separator"></div>
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    font-weight:; /* Font weight */
+    margin-top: 15px;
+
+    /* Add any other styling properties as needed */
+  }
+
+</style>
+<h2 class="h2 article-title">TOOLS & TECHNOLOGIES</h2>
+<style>
+  .container {
+    text-align: left;
+  }
+
+  .form-btn {
+    display: inline-block;
+    padding: 7px 14px;
+    font-size: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: 2px solid #ffc107;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .form-btn span {
+    margin-left: 5px;
+  }
+
+  .form-btn[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+</style>
+
+<div class="container">
+
+<style>
+  .side-heading {
+    font-size: 16px; /* Adjust the font size for a smaller heading */
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+margin-top: 15px;
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+.form-btn {
+  /* ... other existing styles ... */
+  border: 1px solid #8AB6F9; /* Border color set to #8AB6F9 */
+}
+ 
+  }
+</style>
+
+<h4 class="side-heading">AWS Services</h4>
+
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>EKS</span></button>
+  <button class="form-btn" type="submit"><span>ECR</span></button>
+  <button class="form-btn" type="submit"><span>ECS</span></button>
+  <button class="form-btn" type="submit"><span>EC2</span></button>
+  <button class="form-btn" type="submit"><span>S3</span></button>
+
+  <button class="form-btn" type="submit"><span>ELB</span></button>
+  <button class="form-btn" type="submit"><span>VPC</span></button>
+  <button class="form-btn" type="submit"><span>Route53</span></button>
+  <button class="form-btn" type="submit"><span>lambda</span></button>
+  <button class="form-btn" type="submit"><span>IAM</span></button>
+  <button class="form-btn" type="submit"><span>Cloud Formation</span></button>
+  <button class="form-btn" type="submit"><span></span>Cloud Trail</button>
+  <button class="form-btn" type="submit"><span>Cloud Front</span></button>
+  <button class="form-btn" type="submit"><span>Cloud Watch</span></button>
+  <button class="form-btn" type="submit"><span>DynamoDB</span></button>
+  <button class="form-btn" type="submit"><span>EBS</span></button>
+  <button class="form-btn" type="submit"><span>Code Pipeline</span></button>
+  <button class="form-btn" type="submit"><span>Code Commit</span></button>
+  <button class="form-btn" type="submit"><span>Code Deploy</span></button>
+  <button class="form-btn" type="submit"><span>Code Build</span></button>
+
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    font-weight: bold; /* Font weight */
+    margin-bottom: 10px;
+margin-top: 15px;
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">Languages</h4>
+
+
+  <!-- Programming Languages -->
+  <button class="form-btn" type="submit"><span>Python</span></button>
+  <button class="form-btn" type="submit"><span>R</span></button>
+  <button class="form-btn" type="submit"><span>Shell Scripting</span></button>
+  <button class="form-btn" type="submit"><span>Bash</span></button>
+  <button class="form-btn" type="submit"><span>SQL</span></button>
+  <button class="form-btn" type="submit"><span>HTML</span></button>
+  <button class="form-btn" type="submit"><span>CSS</span></button>
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    font-weight: bold; /* Font weight */
+    margin-bottom: 10px;
+margin-top: 15px;
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">Cloud Services</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>Amazon web Service</span></button>
+  <button class="form-btn" type="submit"><span>Microsoft Azure</span></button>
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+margin-top: 15px;
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">Version Control</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>GIT</span></button>
+  <button class="form-btn" type="submit"><span>GITLAB</span></button>
+  <button class="form-btn" type="submit"><span>GITHUB</span></button>
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+margin-top: 15px;
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">Infrastructure Automation</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>Terraform Enterprise</span></button>
+  <button class="form-btn" type="submit"><span>Cloud Formation</span></button>
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+margin-top: 15px;
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">Configuration Tools</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>Ansible</span></button>
+  <button class="form-btn" type="submit"><span>Docker</span></button>
+  <button class="form-btn" type="submit"><span>Kubernetes</span></button>
+  <button class="form-btn" type="submit"><span>Terraform</span></button>
+
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+margin-top: 15px;
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">CI/CD</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>Jenkins</span></button>
+  <button class="form-btn" type="submit"><span>GitLab CI</span></button>
+  <button class="form-btn" type="submit"><span>GitHub Actions</span></button>
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+margin-top: 15px;
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">Containers</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>Docker</span></button>
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+margin-top: 15px;
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">Monitoring Tools</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>Cloud Watch</span></button>
+  <button class="form-btn" type="submit"><span>Splunk</span></button>
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+margin-top: 15px;
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">Scripting</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>Shell Scripting</span></button>
+  <button class="form-btn" type="submit"><span>YAML</span></button>
+  <button class="form-btn" type="submit"><span>Python (Boto3)</span></button>
+</div>
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+margin-top: 15px;
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">Databases</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>MySQL</span></button>
+  <button class="form-btn" type="submit"><span>NoSQL</span></button>
+  <button class="form-btn" type="submit"><span>Oracel</span></button>
+  <button class="form-btn" type="submit"><span>MongoDB</span></button>
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+margin-top: 15px;
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">Operating Systems</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>UNIX</span></button>
+  <button class="form-btn" type="submit"><span>Linux</span></button>
+  <button class="form-btn" type="submit"><span>Windows</span></button>
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+margin-top: 15px;
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">SDLC</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>WaterFall Model</span></button>
+  <button class="form-btn" type="submit"><span>Agile</span></button>
+  <button class="form-btn" type="submit"><span>Scrum</span></button>
+
+<style>
+  .article-title {
+    font-size: 16px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">Libraries</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>Boto3</span></button>
+  <button class="form-btn" type="submit"><span>TensorFlow</span></button>
+  <button class="form-btn" type="submit"><span>NumPy</span></button>
+  <button class="form-btn" type="submit"><span>Keras</span></button>
+   <div class="separator"></div>
+
+<style>
+  .article-title {
+    font-size: 35px;
+    color: #fff;
+    font-weight: bold;
+    /* Add any other styling properties as needed */
+  }
+
+  header {
+    margin-top: 35px; /* Add top margin of 25px */
+  }
+
+  .section-line {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    margin-bottom: 10px; /* Add bottom margin as needed */
+  }
+</style>
+
+
+
+
+<header>
+  <h2 class="h2 article-title">PROJECTS</h2>
+</header>
+          
+
+
+          <ul class="project-list">
+
+            <li class="project-item  active">
+              <a href="https://github.com/Tarun-Chand-Illapu/Terraform-Remote-Backend-Configuration-with-S3-and-DynamoDB">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg"  loading="lazy">
+                </figure>
+
+                <h3 class="project-title">
+Terraform Remote Backend Configuration with S3 and DynamoDB</h3>
+
+                <p class="project-category"></p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" >
+              <a href="https://github.com/Tarun-Chand-Illapu/cost_optimization_identifying_stale_resources">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">
+AWS Cloud Cost Optimization - Identifying Stale Resources</h3>
+
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"> Terraform - setup 2-Tire Application configuration using VPC, EC2 and S3</h3>
+
+                <p class="project-category"></p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">
+E-Commerce : A Menu-driven database system application</h3>
+
+                <p class="project-category"></p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">
+Predict Future Sales</h3>
+
+                <p class="project-category"></p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">
+Association Rule Mining | Market Basket Analysis</h3>
+
+                <p class="project-category"></p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">
+Kidney Stone detection from ultrasound images by using Canny Edge Detection and CNN Classification</h3>
+
+                <p class="project-category"></p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">
+University Blog</h3>
+
+                <p class="project-category"></p>
+
+              </a>
+            </li>
+
+
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+
+       </header>
+
+<div class="separator"></div>
+
+<header>
+  <h2 class="h2 article-title">CERTIFICATIONS</h2>
+</header>
+
+<div class="certification-list">
+  <div class="certification-item">
+    <img src="./assets/images/certification-1.jpg" alt="AWS Certified Cloud Practitioner" width="50">
+    <div class="certification-info">
+      <h4 class="side-heading">
+        AWS Certified Cloud Practitioner 
+      
+        <a href="https://www.credly.com/badges/aca050aa-c14d-4c54-96b2-f0b75b170f0a/linked_in_profile">ID RC6WR5CBQEBQ15KJ</a> <!-- Link to your certification ID -->
+      </h4>
+      <p>Nov, 2023</p> <!-- Certification Date -->
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="certification-list">
+  <div class="certification-item">
+    <img src="./assets/images/certification-2.jpg" alt="AWS Certified Cloud Practitioner" width="50">
+    <div class="certification-info">
+      <h4 class="side-heading">
+        Data Analytics using Python
+      
+        <a href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL20CS46S1PC394324">here</a> <!-- Link to your certification ID -->
+      </h4>
+      <p>June, 2020</p> <!-- Certification Date -->
+    </div>
+  </div>
+</div>
+
+
+
+<div class="certification-list">
+  <div class="certification-item">
+    <img src="./assets/images/certification-2.jpg" alt="AWS Certified Cloud Practitioner" width="50">
+    <div class="certification-info">
+      <h4 class="side-heading">
+        Database Management System 
+      
+        <a href="https://archive.nptel.ac.in/noc/B2C/candidate_login/candidate_scores.php?courseid=noc19-cs12">here</a> <!-- Link to your certification ID -->
+      </h4>
+      <p>Nov, 2019</p> <!-- Certification Date -->
+    </div>
+  </div>
+</div>
+
+
+<div class="certification-list">
+  <div class="certification-item">
+    <img src="./assets/images/certification-2.jpg" alt="AWS Certified Cloud Practitioner" width="50">
+    <div class="certification-info">
+      <h4 class="side-heading">
+        The Joy of Computing using Python 
+      
+        <a href="https://archive.nptel.ac.in/noc/B2C/candidate_login/candidate_scores.php?courseid=noc19-cs41">here</a> <!-- Link to your certification ID -->
+      </h4>
+      <p>April, 2019</p> <!-- Certification Date -->
+    </div>
+  </div>
+</div>
+
+
+
+<div class="certification-list">
+  <div class="certification-item">
+    <img src="./assets/images/certification-3.jpg" alt="AWS Certified Cloud Practitioner" width="50">
+    <div class="certification-info">
+      <h4 class="side-heading">
+        Applications of Machine Learning
+        <a href="href">here</a> <!-- Link to your certification ID -->
+        </a>
+      </h4>
+      <p>March, 2019</p> <!-- Certification Date -->
+    </div>
+  </div>
+</div>
+
+  
+  <!-- Add other certification items here -->
+
+
+
+
+
+
+
+
+
+      </article>
+
+        </section>
+
+        <!--
+          - service
+        -->
+
+        
+
+        <!--
+          - testimonials
+        -->
+
+        
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+       
+      </article>
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">New Jersey Institute of Technology</h4>
+		              <span>MS in Computer Science </span>
+
+              <span>Aug 2022- May 2024 </span>
+
+              <p class="timeline-text">
+                Pursuing an MS in Computer Science at NJIT, specializing in Internet & Higher Layer Protocols, Operating Systems, and Machine Learning. Maintaining a GPA of 3.55, I am dedicated to advancing my knowledge in these key areas, poised to contribute to cutting-edge developments in the field.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Vignan's Institute of Information technology</h4>
+		<span>Bachelors, Computer Science</span>
+
+              <span>Aug 2018 - May 2021</span>
+
+              <p class="timeline-text">
+                Completed a B.Tech in Computer Science at Vignan’s Institute, attaining a GPA of 3.25. Acquired a diverse skill set encompassing Data Structures, Cloud Computing, and Artificial Intelligence, laying a strong foundation for my professional journey in the realm of computer science.
+              </p>
+
+            </li>
+
+            
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Devops Engineer</h4>
+	      <span>HashTek Solution</span>
+
+              <span>Aug 2021 - July 2022</span>
+
+              <p class="timeline-text">
+                    • Created and implemented groundbreaking Infrastructure as Code (IaC) methodologies using Terraform and CloudFormation, resulting in a 25% decrease in infrastructure provisioning time.
+                </p>
+                <p class="timeline-text">
+                    • Engineered and optimized CI/CD pipelines with GitLab CI and Jenkins, achieving a 30% reduction in deployment time and a 20% increase in deployment frequency.
+                </p>
+                <p class="timeline-text">
+                    • Implemented Infrastructure as Code (IaC) methodologies with Terraform and CloudFormation, leading to a 25% decrease in infrastructure provisioning time.
+                </p>
+                <p class="timeline-text">
+                    • Spearheaded containerization initiatives using Docker and Kubernetes, achieving a 40% improvement in scalability and a monthly server cost reduction by $15,000.
+                </p>
+                <p class="timeline-text">
+                    • Executed regular performance tuning and optimization of cloud resources, ensuring 99.99% uptime and optimal resource utilization.
+                </p>
+                <p class="timeline-text">
+                    • Imparted technical expertise and mentorship to junior team members, fostering a culture of continuous learning and improvement.
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cloud Support Associate-1</h4>
+	           <span>HashTek Solutions</span>
+
+              <span>Feb 2021 - July 2021</span>
+
+              <p class="timeline-text">
+                    • Collaborated with development and operations teams to establish best practices for Software Development Lifecycle (SDLC) automation, resulting in a 50% faster time-to-market.
+                </p>
+                <p class="timeline-text">
+                    • Assisted a 10-member software development team in debugging approximately three software programs weekly.
+                </p>
+                <p class="timeline-text">
+                    • Published client requirements and reported to the senior developer for successful implementation.
+                </p>
+                <p class="timeline-text">
+                    • Positioned security software on over 10 client systems to ensure a secure connection.
+                </p>
+                <p class="timeline-text">
+                    • Provided technical support and troubleshooting for cloud-related issues, maintaining a 95% customer satisfaction rating.
+                </p>
+                <p class="timeline-text">
+                    • Collaborated with cross-functional teams to resolve complex AWS service issues, reducing downtime by 20% and enhancing service reliability.
+                </p>
+                <p class="timeline-text">
+                    • Utilized AWS CloudWatch and other monitoring tools to proactively identify and resolve performance bottlenecks, ensuring optimal performance of cloud-based applications.
+                </p>
+                <p class="timeline-text">
+                    • Assisted in the development and implementation of disaster recovery strategies, ensuring 99.99% data availability in the event of system failures.
+                </p>
+                <p class="timeline-text">
+                    • Acted as a liaison between customers and engineering teams, effectively communicating technical solutions and ensuring customer success.
+                </p>
+                <p class="timeline-text">
+                    • Demonstrated good hands-on experience in EC2, VPC, S3, IAM, RDS, CloudFormation (YAML), CloudWatch, ELB, CloudTrail, LAMBDA Services, AWS EKS & AWS ECS.
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cloud Support Associate Intern</h4>
+
+              <span>HashTek Solutions</span>
+              <span>Noc 2020 - Feb 2021</span>
+
+              <p class="timeline-text">
+                    • Gained hands-on experience in cloud technologies, assisting in resolving complex customer problems and supporting cloud infrastructure.
+                </p>
+                <p class="timeline-text">
+                    • Assisted in resolving over 100 complex customer problems, contributing to a 30% increase in the customer issue resolution rate.
+                </p>
+                <p class="timeline-text">
+                    • Participated in the implementation of cloud infrastructure solutions, supporting the deployment of 10+ cloud-based projects.
+                </p>
+                <p class="timeline-text">
+                    • Developed and maintained technical documentation and knowledge base articles, empowering customers to troubleshoot common issues independently.
+                </p>
+                <p class="timeline-text">
+                    • Collaborated with senior engineers to design and implement security best practices, ensuring compliance with industry standards and regulations.
+                </p>
+                <p class="timeline-text">
+                    • Actively participated in team meetings and training sessions, acquiring new skills and knowledge in cloud technologies.
+                </p>
+
+            </li>
+<li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cyber Security Intern</h4>
+
+              <span>TocMoc Solutions</span>
+              <span>April 2019 - Sept 2019</span>
+
+              <p class="timeline-text">
+                    •	Discovered potential vulnerabilities and threats in web servers and suggested upgrades.
+                </p>
+                <p class="timeline-text">
+                    •	Worked on projects relating to malware detecting and protection, attacks on Content Delivery Networks, and SSL cross-site scripting
+                </p>
+                <p class="timeline-text">
+                    • Participated in the implementation of cloud infrastructure solutions, supporting the deployment of 10+ cloud-based projects.
+                </p>
+                <p class="timeline-text">
+                    • Developed and maintained technical documentation and knowledge base articles, empowering customers to troubleshoot common issues independently.
+                </p>
+                <p class="timeline-text">
+                    • Collaborated with senior engineers to design and implement security best practices, ensuring compliance with industry standards and regulations.
+                </p>
+                <p class="timeline-text">
+                    • Actively participated in team meetings and training sessions, acquiring new skills and knowledge in cloud technologies.
+                </p>
+
+          </ol>
+
+       
+
+            
+
+        </section>
+
+
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    font-weight:; /* Font weight */
+    margin-top: 15px;
+
+    /* Add any other styling properties as needed */
+  }
+
+</style>
+<h4 class="h2 article-title">Tools & Technologies</h4>
+<style>
+  .container {
+    text-align: left;
+  }
+
+  .form-btn {
+    display: inline-block;
+    padding: 7px 14px;
+    font-size: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: 2px solid #ffc107;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .form-btn span {
+    margin-left: 5px;
+  }
+
+  .form-btn[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+</style>
+
+<div class="container">
+
+<style>
+  .side-heading {
+    font-size: 16px; /* Adjust the font size for a smaller heading */
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+margin-top: 15px;
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+
+<h4 class="side-heading">AWS Services</h4>
+
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>EKS</span></button>
+  <button class="form-btn" type="submit"><span>ECR</span></button>
+  <button class="form-btn" type="submit"><span>ECS</span></button>
+  <button class="form-btn" type="submit"><span>EC2</span></button>
+  <button class="form-btn" type="submit"><span>S3</span></button>
+
+  <button class="form-btn" type="submit"><span>ELB</span></button>
+  <button class="form-btn" type="submit"><span>VPC</span></button>
+  <button class="form-btn" type="submit"><span>Route53</span></button>
+  <button class="form-btn" type="submit"><span>lambda</span></button>
+  <button class="form-btn" type="submit"><span>IAM</span></button>
+  <button class="form-btn" type="submit"><span>Cloud Formation</span></button>
+  <button class="form-btn" type="submit"><span></span>Cloud Trail</button>
+  <button class="form-btn" type="submit"><span>Cloud Front</span></button>
+  <button class="form-btn" type="submit"><span>Cloud Watch</span></button>
+  <button class="form-btn" type="submit"><span>DynamoDB</span></button>
+  <button class="form-btn" type="submit"><span>EBS</span></button>
+  <button class="form-btn" type="submit"><span>Code Pipeline</span></button>
+  <button class="form-btn" type="submit"><span>Code Commit</span></button>
+  <button class="form-btn" type="submit"><span>Code Deploy</span></button>
+  <button class="form-btn" type="submit"><span>Code Build</span></button>
+
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    font-weight: bold; /* Font weight */
+    margin-bottom: 10px;
+margin-top: 15px;
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">Languages</h4>
+
+
+  <!-- Programming Languages -->
+  <button class="form-btn" type="submit"><span>Python</span></button>
+  <button class="form-btn" type="submit"><span>R</span></button>
+  <button class="form-btn" type="submit"><span>Shell Scripting</span></button>
+  <button class="form-btn" type="submit"><span>Bash</span></button>
+  <button class="form-btn" type="submit"><span>SQL</span></button>
+  <button class="form-btn" type="submit"><span>HTML</span></button>
+  <button class="form-btn" type="submit"><span>CSS</span></button>
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    font-weight: bold; /* Font weight */
+    margin-bottom: 10px;
+margin-top: 15px;
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">Cloud Services</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>Amazon web Service</span></button>
+  <button class="form-btn" type="submit"><span>Microsoft Azure</span></button>
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+margin-top: 15px;
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">Version Control</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>GIT</span></button>
+  <button class="form-btn" type="submit"><span>GITLAB</span></button>
+  <button class="form-btn" type="submit"><span>GITHUB</span></button>
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+margin-top: 15px;
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">Infrastructure Automation</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>Terraform Enterprise</span></button>
+  <button class="form-btn" type="submit"><span>Cloud Formation</span></button>
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+margin-top: 15px;
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">Configuration Tools</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>Ansible</span></button>
+  <button class="form-btn" type="submit"><span>Docker</span></button>
+  <button class="form-btn" type="submit"><span>Kubernetes</span></button>
+  <button class="form-btn" type="submit"><span>Terraform</span></button>
+
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+margin-top: 15px;
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">CI/CD</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>Jenkins</span></button>
+  <button class="form-btn" type="submit"><span>GitLab CI</span></button>
+  <button class="form-btn" type="submit"><span>GitHub Actions</span></button>
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+margin-top: 15px;
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">Containers</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>Docker</span></button>
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+margin-top: 15px;
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">Monitoring Tools</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>Cloud Watch</span></button>
+  <button class="form-btn" type="submit"><span>Splunk</span></button>
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+margin-top: 15px;
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">Scripting</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>Shell Scripting</span></button>
+  <button class="form-btn" type="submit"><span>YAML</span></button>
+  <button class="form-btn" type="submit"><span>Python (Boto3)</span></button>
+</div>
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+margin-top: 15px;
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">Databases</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>MySQL</span></button>
+  <button class="form-btn" type="submit"><span>NoSQL</span></button>
+  <button class="form-btn" type="submit"><span>Oracel</span></button>
+  <button class="form-btn" type="submit"><span>MongoDB</span></button>
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+margin-top: 15px;
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">Operating Systems</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>UNIX</span></button>
+  <button class="form-btn" type="submit"><span>Linux</span></button>
+  <button class="form-btn" type="submit"><span>Windows</span></button>
+
+<style>
+  .article-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+margin-top: 15px;
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">SDLC</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>WaterFall Model</span></button>
+  <button class="form-btn" type="submit"><span>Agile</span></button>
+  <button class="form-btn" type="submit"><span>Scrum</span></button>
+
+<style>
+  .article-title {
+    font-size: 16px; /* Adjust the font size as needed */
+    /* You can also use other CSS properties to customize the appearance */
+    color: #fff; /* Text color */
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+
+    font-weight: bold; /* Font weight */
+    /* Add any other styling properties as needed */
+  }
+</style>
+<h4 class="side-heading">Libraries</h4>
+
+
+  <!-- Cloud and DevOps Tools -->
+  <button class="form-btn" type="submit"><span>Boto3</span></button>
+  <button class="form-btn" type="submit"><span>TensorFlow</span></button>
+  <button class="form-btn" type="submit"><span>NumPy</span></button>
+  <button class="form-btn" type="submit"><span>Keras</span></button>
+
+<header>
+  <h2 class="h2 article-title">CERTIFICATIONS</h2>
+</header>
+
+<div class="certification-list">
+  <div class="certification-item">
+    <img src="./assets/images/certification-1.jpg" alt="AWS Certified Cloud Practitioner" width="50">
+    <div class="certification-info">
+      <h4 class="side-heading">
+        AWS Certified Cloud Practitioner 
+      
+        <a href="https://www.credly.com/badges/aca050aa-c14d-4c54-96b2-f0b75b170f0a/linked_in_profile">ID RC6WR5CBQEBQ15KJ</a> <!-- Link to your certification ID -->
+      </h4>
+      <p>Nov, 2023</p> <!-- Certification Date -->
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="certification-list">
+  <div class="certification-item">
+    <img src="./assets/images/certification-2.jpg" alt="AWS Certified Cloud Practitioner" width="50">
+    <div class="certification-info">
+      <h4 class="side-heading">
+        Data Analytics using Python
+      
+        <a href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL20CS46S1PC394324">here</a> <!-- Link to your certification ID -->
+      </h4>
+      <p>June, 2020</p> <!-- Certification Date -->
+    </div>
+  </div>
+</div>
+
+
+
+<div class="certification-list">
+  <div class="certification-item">
+    <img src="./assets/images/certification-2.jpg" alt="AWS Certified Cloud Practitioner" width="50">
+    <div class="certification-info">
+      <h4 class="side-heading">
+        Database Management System 
+      
+        <a href="https://archive.nptel.ac.in/noc/B2C/candidate_login/candidate_scores.php?courseid=noc19-cs12">here</a> <!-- Link to your certification ID -->
+      </h4>
+      <p>Nov, 2019</p> <!-- Certification Date -->
+    </div>
+  </div>
+</div>
+
+
+<div class="certification-list">
+  <div class="certification-item">
+    <img src="./assets/images/certification-2.jpg" alt="AWS Certified Cloud Practitioner" width="50">
+    <div class="certification-info">
+      <h4 class="side-heading">
+        The Joy of Computing using Python 
+      
+        <a href="https://archive.nptel.ac.in/noc/B2C/candidate_login/candidate_scores.php?courseid=noc19-cs41">here</a> <!-- Link to your certification ID -->
+      </h4>
+      <p>April, 2019</p> <!-- Certification Date -->
+    </div>
+  </div>
+</div>
+
+
+
+<div class="certification-list">
+  <div class="certification-item">
+    <img src="./assets/images/certification-3.jpg" alt="AWS Certified Cloud Practitioner" width="50">
+    <div class="certification-info">
+      <h4 class="side-heading">
+        Applications of Machine Learning
+        <a href="href">here</a> <!-- Link to your certification ID -->
+        </a>
+      </h4>
+      <p>March, 2019</p> <!-- Certification Date -->
+    </div>
+  </div>
+</div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PROJECTS
+      -->
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">projects</h2>
+        </header>
+
+        <section class="projects">
+
+          
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item></button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item></button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item></button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item></button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Tarun-Chand-Illapu/Terraform-Remote-Backend-Configuration-with-S3-and-DynamoDB">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">
+Terraform Remote Backend Configuration with S3 and DynamoDB</h3>
+
+                <p class="project-category"></p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Tarun-Chand-Illapu/cost_optimization_identifying_stale_resources">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">
+AWS Cloud Cost Optimization - Identifying Stale Resources</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"> Terraform - setup 2-Tire Application configuration using VPC, EC2 and S3</h3>
+
+                <p class="project-category"></p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">
+E-Commerce : A Menu-driven database system application</h3>
+
+                <p class="project-category"></p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">
+Predict Future Sales</h3>
+
+                <p class="project-category"></p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">
+Association Rule Mining | Market Basket Analysis</h3>
+
+                <p class="project-category"></p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">
+Kidney Stone detection from ultrasound images by using Canny Edge Detection and CNN Classification</h3>
+
+                <p class="project-category"></p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">
+University Blog</h3>
+
+                <p class="project-category"></p>
+
+              </a>
+            </li>
+
+   
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.0815095092855!2d-74.1517894!3d40.7437335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25389f17b9d0b%3A0x6d7188fbf28456c1!2sHarrison%2C%20NJ!5e0!3m2!1sen!2sus!4v1647646920098!5m2!1sen!2sus"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
